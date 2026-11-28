@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Python学习 | 我的学习博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Python def函数  我认为def函数是先定义了一个规则 然后到后面输入一些值 然后根据规则得到我的目的结果 注意def函数里面如果我重新定义了一个字面量 我就想输出的时候用这个字面量  不可以 因为这个字面量只是def内部的  最终print的时候 print看的是外部的 就看不见def函数里面定义的字面量  输出错误  在最后print的时候 我们要写def后面的那个print(area">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python学习">
+<meta property="og:url" content="https://yy-cfvgbhijnmkj.github.io/2026/11/28/Python%E5%AD%A6%E4%B9%A0/index.html">
+<meta property="og:site_name" content="我的学习博客">
+<meta property="og:description" content="Python def函数  我认为def函数是先定义了一个规则 然后到后面输入一些值 然后根据规则得到我的目的结果 注意def函数里面如果我重新定义了一个字面量 我就想输出的时候用这个字面量  不可以 因为这个字面量只是def内部的  最终print的时候 print看的是外部的 就看不见def函数里面定义的字面量  输出错误  在最后print的时候 我们要写def后面的那个print(area">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-11-28T12:33:44.000Z">
+<meta property="article:modified_time" content="2026-11-28T12:34:47.060Z">
+<meta property="article:author" content="yy-cfvgbhijnmkj">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="我的学习博客" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">我的学习博客</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS 订阅"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="搜索"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://yy-cfvgbhijnmkj.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-Python学习" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2026/11/28/Python%E5%AD%A6%E4%B9%A0/" class="article-date">
+  <time class="dt-published" datetime="2026-11-28T12:33:44.000Z" itemprop="datePublished">2026-11-28</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Python学习
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>Python</p>
+<p>def函数  我认为def函数是先定义了一个规则 然后到后面输入一些值 然后根据规则得到我的目的结果 注意def函数里面如果我重新定义了一个字面量 我就想输出的时候用这个字面量  不可以 因为这个字面量只是def内部的  最终print的时候 print看的是外部的 就看不见def函数里面定义的字面量  输出错误 </p>
+<p>在最后print的时候 我们要写def后面的那个print(area(2,9))</p>
+<p>return 后面写了东西 那么返回的就是后面的那个东西如果什么都没有写 那就返回none</p>
+<p>数字 &#x2F; 字符串：函数里面修改，外面不受影响</p>
+<p>列表、字典：函数里 append、修改元素，外面原变量跟着变</p>
+<p>def printme(str):</p>
+<pre><code>print(str)
+
+return
+</code></pre>
+<p>printme(“hello”)</p>
+<p>printme(str&#x3D;”hello”）</p>
+<p>Python解释器可以用参数名来匹配参数值，如果有两个参数名的时候，不需要位置顺序一样</p>
+<p>加了星号 * 的参数会以元组(tuple)的形式导入，存放所有未命名的变量参数。</p>
+<p>不定长参数 就比如我只定义了两个字面量 意思就是我只能放对应的字面量的数值的参数，但是有时候我要输入的数值会变多，所以我可以用不定义参数，就是那个加<em>或</em>*</p>
+<p>def printinfo( arg1, *vartuple ): </p>
+<p>“打印任何传入的参数” </p>
+<p>print (“输出: “) </p>
+<p>print (arg1) </p>
+<p>for var in vartuple: </p>
+<p>print (var) </p>
+<p>return </p>
+<h1 id="调用printinfo-函数-因为调用了两次printinfo-那么他就会有两次“输出”-第一次-只有一个元素所以没有走到for循环里面-但是第二次有三个元素走到for循环里面了"><a href="#调用printinfo-函数-因为调用了两次printinfo-那么他就会有两次“输出”-第一次-只有一个元素所以没有走到for循环里面-但是第二次有三个元素走到for循环里面了" class="headerlink" title="调用printinfo 函数     因为调用了两次printinfo 那么他就会有两次“输出”  第一次 只有一个元素所以没有走到for循环里面 但是第二次有三个元素走到for循环里面了"></a>调用printinfo 函数     因为调用了两次printinfo 那么他就会有两次“输出”  第一次 只有一个元素所以没有走到for循环里面 但是第二次有三个元素走到for循环里面了</h1><p>printinfo( 10 ) </p>
+<p>printinfo( 70, 60, 50 )</p>
+<p>加了两个星号 ** 的参数会以字典的形式导入。</p>
+<p>输入的参数要写成 什么&#x3D;什么 因为字典是 键：值 的形势存在的</p>
+<p>声明函数时，参数中星号 * 可以单独出现</p>
+<p>如果单独出现星号 *，则星号 * 后的参数必须用关键字传入</p>
+<p>比如说def f（a,b,*,c）</p>
+<p>遇到这种情况 在后面传参的时候要  f(1,2,c&#x3D;8)   这样来传</p>
+<p>lambda 来创建匿名函数</p>
+<p>比def函数简单</p>
+<p>字面量&#x3D;lambda  字面量（多个） ：字面量要进行的运算或者等等</p>
+<p>print(字面量（数值））</p>
+<p>def 函数下面也可以有 lambda 函数</p>
+<p>def myfunc(n): </p>
+<p>return lambda a : a * n </p>
+<p>mydoubler &#x3D; myfunc(2) </p>
+<p>mytripler &#x3D; myfunc(3)  </p>
+<p>print(mydoubler(11))       我对这个函数的理解：def函数下面有一个lambda函数，mydoubler&#x3D;（myfunc（2）），就是把n代到上面，上面的函数就可以相当于  def mydoubler（a）return lambda a：a*2 然后print（mydoubler（11））  然后代进去  以此类推</p>
+<p>print(mytripler(11))</p>
+<p>补充</p>
+<p>map（）函数   把可迭代对象里的每一个元素，挨个丢给这个函数去处理，最后返回处理后的结果</p>
+<p>map(函数, 序列)</p>
+<p>第一个参数：函数（可以是普通 def 函数，也可以是 lambda）</p>
+<p>第二个参数：序列（list &#x2F;tuple）</p>
+<p>返回：map 对象（一般套上 list () 转成列表看结果）</p>
+<p>如果不套list（）那么输出的结果不可看</p>
+<p>可以和def函数  lambda一起用</p>
+<p>filter（）函数</p>
+<p>filter(判断函数, 可迭代对象)</p>
+<p>第一个参数：函数，这个函数必须返回 True &#x2F; False</p>
+<p>第二个参数：列表、元组这类可迭代对象</p>
+<p>返回的是 filter 对象，想看内容要用 list() 转列表</p>
+<p>判断函数可以是lambda  def函数</p>
+<p>在def函数的return那里返回True False</p>
+<p>在lambda函数 的冒号那里自动生成True False</p>
+<p>传给 filter 的函数，是用来做条件判断的，不要写乘除修改数值！</p>
+<p>Filter（）不可以修改数值</p>
+<p>reduce（）函数</p>
+<p>这个函数不在python的内置函数范围之内 需要先导入from functools import reduce</p>
+<p>reduce(函数, 可迭代对象, [初始值])</p>
+<p>函数可以是lambda  def   初始值可以不用写</p>
+<p>作用：累积、合并 它会依次拿两个元素交给函数计算，把算出的结果，再和下一个元素继续算，一直算到只剩一个最终结果。</p>
+<p>最后的输出不用套list（）函数</p>
+<p>Lambda x，y：x+y</p>
+<p>return 语句</p>
+<p>强制位置传参</p>
+<p>def f(a, b, &#x2F;, c, d, *, e, f):</p>
+<pre><code>print(a, b, c, d, e, f)
+</code></pre>
+<p>&#x2F; 的左边必须用位置传参  *的右边必须用关键字传参</p>
+<p>&#x2F;   * 中间用什么都可以</p>
+<p>Python装饰器</p>
+<p>装饰器的核心思想是：用一个函数”包装”另一个函数。</p>
+<p>def decorate(func):</p>
+<pre><code>def wrapper():
+
+    print(&quot;前置：额外要做的事&quot;)
+
+    func()   # func 就是 hello，func() 执行hello
+
+    print(&quot;后置：额外要做的事&quot;)
+
+return wrapper
+</code></pre>
+<p>@decorate   装饰器通过 @ 语法糖应用在函数定义前</p>
+<p>def hello():</p>
+<pre><code>print(&quot;我是原来hello的代码&quot;)
+</code></pre>
+<p>hello()</p>
+<p>@decorate 等价：hello &#x3D; decorate(hello)</p>
+<p>1.把原始的 hello 传给 decorate，func 接住它 → func &#x3D; hello</p>
+<p>2.decorate 返回 wrapper（外壳）</p>
+<p>3.现在名字 hello 指向 wrapper</p>
+<p>4.执行 hello() → 跑 wrapper</p>
+<p>5.wrapper 里面：先打印前置 → func() 跑原来 hello → 打印后置</p>
+<p>✅ 一句话记： func 是存进来的原函数，加括号才会跑它。装饰器就是套一层 wrapper 外壳，在原函数前后加代码。</p>
+<p>如果原函数有参数，需要在 wrapper 中使用 *args, **kwargs</p>
+<p>列表</p>
+<p>方法	描述</p>
+<p>list.append(x)	把一个元素添加到列表的结尾，相当于 a[len(a):] &#x3D; [x]。</p>
+<p>list.extend(L)	通过添加指定列表的所有元素来扩充列表，相当于 a[len(a):] &#x3D; L。</p>
+<p>list.insert(i, x)	在指定位置插入一个元素。第一个参数是准备插入到其前面的那个元素的索引，</p>
+<p>例如 a.insert(0, x) 会插入到整个列表之前，而 a.insert(len(a), x) 相当于 a.append(x) 。</p>
+<p>list.remove(x)	删除列表中值为 x 的第一个元素。如果没有这样的元素，就会返回一个错误。</p>
+<p>list.pop([i])	从列表的指定位置移除元素，并将其返回。</p>
+<p>如果没有指定索引，a.pop()返回最后一个元素。</p>
+<p>元素随即从列表中被移除。（方法中 i 两边的方括号表示这个参数是可选的，</p>
+<p>而不是要求你输入一对方括号，你会经常在 Python 库参考手册中遇到这样的标记。）</p>
+<p>list.clear()	移除列表中的所有项，等于del a[:]。</p>
+<p>list.index(x)	返回列表中第一个值为 x 的元素的索引。如果没有匹配的元素就会返回一个错误。</p>
+<p>list.count(x)	返回 x 在列表中出现的次数。</p>
+<p>list.sort()	对列表中的元素进行排序。   不返回</p>
+<p>list.reverse()	倒排列表中的元素。     不返回</p>
+<p>list.copy()	返回列表的浅复制，等于a[:]。</p>
+<p>append(x)：加一个项，x 是什么就放什么</p>
+<p>extend(可迭代对象)：把里面元素摊开，一个个追加</p>
+<p>lst.sort()：原地改，返回 None</p>
+<p>sorted(lst)：产生新列表，返回排好序的列表</p>
+<p>栈操作   后进先出</p>
+<p>压入（Push）: 将一个元素添加到栈的顶端。  字面量.append()   往里面放</p>
+<p>弹出（Pop）: 移除并返回栈顶元素。字面量.pop()   拿走</p>
+<p>查看栈顶元素（Peek&#x2F;Top）: 返回栈顶元素而不移除它。  索引    看</p>
+<p>检查是否为空（IsEmpty）: 检查栈是否为空。len（）&#x3D;&#x3D; 0  检查</p>
+<p>获取栈的大小（Size）: 获取栈中元素的数量。  len（）   大小</p>
+<p>字符串和列表不能比较大小，一比较就直接报错</p>
+<p>队列  先进先出</p>
+<p>变量.popleft()    这样的一句话就是删了里面的一个元素</p>
+<p>使用 pop(0) 方法从队首移除元素</p>
+<p>queue[0]</p>
+<p>访问第一个元素</p>
+<p>Enqueue  加元素</p>
+<p>Dequeue  减元素</p>
+<p>Peek 就是看一下列表</p>
+<p>Is_empty  是不是空的列表</p>
+<p>Size 大小  len()</p>
+<p>列表推导式</p>
+<p>trip()</p>
+<p>作用：删掉字符串两边（开头和结尾）的空白字符 空白包括：空格、\n换行、\t制表符</p>
+<p>1.strip() → 左右两边都删    只针对字符串使用</p>
+<p>2.lstrip() → left，只删左边（开头）</p>
+<p>3.rstrip() → right，只删右边（结尾）</p>
+<p>去空格 可以用strip</p>
+<p>[x*y for x in …..  foe y in ….]</p>
+<p>嵌套列表解析</p>
+<p>matrix &#x3D;[[1,2,3,4],[5,6,7,8],[9,10,11,12]]</p>
+<p>res &#x3D; [[row[i] for row in matrix] for i in range(4)] 解释：先i&#x3D;0 然后row[i] for row in matrix   意思是取每一行的[0] 然后写成一个列表 这样就3<em>4 变成了 4</em>3</p>
+<p>print(res)</p>
+<p>del 语句</p>
+<p>用del（）语句删除列表中的元素</p>
+<p>del 变量[]  索引</p>
+<p>del a[:]</p>
+<p>全删了</p>
+<p>元组里面 的字符串前面有空格</p>
+<p>变量.Strip（）  这个是只针对str 使用的   其他的类型是不可以的</p>
+<p>但是元组里面有字符串 并且字符串前面有空格 那么可以这样写</p>
+<p>m &#x3D; [x.strip() if type(x) is str else x for x for x in t]   意思是x在t里面取 如果x是字符串 那么就x.strip() 如果不是那么就直接输出</p>
+<p>t 元组 里面有元素 有带空格的字符串 还有数字</p>
+<p>with 关键字</p>
+<p>with 关键字为我们提供了一种优雅的方式来处理文件操作、数据库连接等需要明确释放资源的场景。</p>
+<p>with expression [as variable]:</p>
+<p>    # 代码块</p>
+<p>with 语句叫做上下文管理器：离开 with 缩进块的时候，自动帮你调用 file.close() 关闭文件，不用自己手写 close ()</p>
+<p>open(‘example.txt’,’r’) </p>
+<p>第一个参数：文件名</p>
+<p>’r’ &#x3D; read，只读模式（只能读，不能修改）</p>
+<p>with open(‘example.txt’, ‘r’) as file:</p>
+<p>    content &#x3D; file.read()</p>
+<p>    print(content)</p>
+<h1 id="文件已自动关闭"><a href="#文件已自动关闭" class="headerlink" title="文件已自动关闭"></a>文件已自动关闭</h1><p>.upper() 就是你最早学的！字符串方法：所有小写字母变成大写</p>
+<p>.write()：把字符串写入文件</p>
+<p>定义函数  def</p>
+<p>函数代码块以 def 关键词开头，后接函数标识符名称和圆括号 ()。</p>
+<p>任何传入参数和自变量必须放在圆括号中间，圆括号之间可以用于定义参数。</p>
+<p>函数的第一行语句可以选择性地使用文档字符串—用于存放函数说明。</p>
+<p>函数内容以冒号 : 起始，并且缩进。</p>
+<p>return [表达式] 结束函数，选择性地返回一个值给调用方，不带表达式的 return 相当于返回 None。</p>
+<p>def 函数名（参数列表）:</p>
+<pre><code>函数体
+</code></pre>
+<p>def hello():</p>
+<pre><code>print(&quot;hello&quot;)
+</code></pre>
+<p>hello()</p>
+<p>输出 hello  感觉像是一种新的print</p>
+<p>return 是写在函数里面的。 </p>
+<p>作用：1. 把一个结果返回给调用这个函数的地方 </p>
+<ol start="2">
+<li>立刻结束这个函数，后面代码不再执行</li>
+</ol>
+<p>先定义规则 然后我再去输入值  然后执行这个规则</p>
+<p>函数调用</p>
+<p>定义一个函数：给了函数一个名称，指定了函数里包含的参数，和代码块结构。</p>
+<p>这个函数的基本结构完成以后，你可以通过另一个函数调用执行，也可以直接从 Python 命令提示符执行。</p>
+<p>printme()：只是打印内容到屏幕</p>
+<p>没有 return → 不会把值返回给外面使用</p>
+<p>举例  有return  和没有return </p>
+<p>如果有return 那么输入的字符串还可以干别的 例如转大写 upper</p>
+<p>但是如果没有return 那么输入的字符串只能输出 什么都干不了</p>
+<p>需求 1：只是给人看一眼 → 函数里面直接 print，不需要 return </p>
+<p>需求 2：这个结果后面代码还要继续用 → 必须 return，传到外面</p>
+<p>printme &#x3D; 一个用来打印内容的自定义函数，接收参数，然后 print 输出，仅此而已。</p>
+<p>可变类型 不可变类型</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://yy-cfvgbhijnmkj.github.io/2026/11/28/Python%E5%AD%A6%E4%B9%A0/" data-id="cmx0e8zjz0000zvs6fqv32vcw" data-title="Python学习" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2026/11/28/linux%E5%91%BD%E4%BB%A4%E6%8C%87%E4%BB%A4%E5%AD%A6%E4%B9%A0/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">linux命令指令学习</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/11/">十一月 2026</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2026/11/28/Python%E5%AD%A6%E4%B9%A0/">Python学习</a>
+          </li>
+        
+          <li>
+            <a href="/2026/11/28/linux%E5%91%BD%E4%BB%A4%E6%8C%87%E4%BB%A4%E5%AD%A6%E4%B9%A0/">linux命令指令学习</a>
+          </li>
+        
+          <li>
+            <a href="/2026/11/28/%E6%88%91%E7%9A%84python%E5%AD%A6%E4%B9%A0/">我的python学习</a>
+          </li>
+        
+          <li>
+            <a href="/2026/11/25/python-study/">python study</a>
+          </li>
+        
+          <li>
+            <a href="/2026/11/25/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2026 yy-cfvgbhijnmkj<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
