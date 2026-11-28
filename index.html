@@ -71,6 +71,121 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-linux命令指令学习" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2026/11/28/linux%E5%91%BD%E4%BB%A4%E6%8C%87%E4%BB%A4%E5%AD%A6%E4%B9%A0/" class="article-date">
+  <time class="dt-published" datetime="2026-11-28T12:27:59.000Z" itemprop="datePublished">2026-11-28</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2026/11/28/linux%E5%91%BD%E4%BB%A4%E6%8C%87%E4%BB%A4%E5%AD%A6%E4%B9%A0/">linux命令指令学习</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>Linux命令指令 </p>
+<p>whoami  就是看当前是谁  当前登陆的用户名</p>
+<p>pwd 看当前的工作路径</p>
+<p>查看当前运行的进程 ps aux</p>
+<p>终止进程 kill 进程id</p>
+<p>&#x2F; 是根目录 cd &#x2F; 查看根目录 我的linux系统进去在子目录home里面</p>
+<p>ls 是看我当前子目录里面的文件 子目录</p>
+<p>ls -l 查看详细信息</p>
+<p>ls -la 查看详细隐藏信息</p>
+<p>cd 文件夹&#x2F;目录 就能跳转到那相应的文件夹目录</p>
+<p>ip addr  ip a  ifconfig 查看网络配置信息</p>
+<p>测试虚拟机与主机的连通性   ping 我的ip  ping我的名字</p>
+<p>创建新目录  mkdir 目录的名字</p>
+<p>删除新目录  rmdir 目录的名字   rm -r 目录的名字</p>
+<p>切换目录 cd 新目录</p>
+<p>创建新的空的文件 touch 文件的名字</p>
+<p>删除文件 rm 文件</p>
+<p>通过名字在当前目录下查找新建文件  find . name “文件的名字”    . 当前文件夹目录</p>
+<p>find . name “*.txt”  这个是找以.txt结尾的文件</p>
+<p>cp 原来的文件 到的地方  复制文件或者目录到新的地方</p>
+<p>mv 旧的文件夹或文件 新的文件夹或文件 移动或重命名文件或目录</p>
+<p>cat 文件 连接和显示文件内容</p>
+<p>more 文件名字  less 文件名字 逐页看文件的内容</p>
+<p>head -n 想看前几行的的行数 文件名  查看文件前几行的内容</p>
+<p>tail -n 想看后面几行的行数 文件名    查看文件后几行的内容</p>
+<p>grep 你想搜的短语 词 文件名       在文件中搜索指定文本</p>
+<p>wget 资源的网络地址  从网络下载文件</p>
+<p>curl -0 资源的网络地址 从网络下载文件</p>
+<p>chmod 权限 文件名   修改文件权限</p>
+<p>所有者 (u)、所属组 (g)、其他用户 (o) 每一位 &#x3D; 4 (r 读) + 2 (w 写) + 1 (x 执行)</p>
+<p>r&#x3D;4，w&#x3D;2，x&#x3D;1</p>
+<p>0：无权限</p>
+<p>4：r</p>
+<p>5：r+x</p>
+<p>6：r+w</p>
+<p>7：r+w+x</p>
+<p>有所有者 (u)、所属组 (g)、其他用户 (o) 所以权限是三位数字</p>
+<p>chown：修改文件或目录的所有者</p>
+<p>tar [选项] 包名 源文件&#x2F;目录</p>
+<p>包名 &#x3D; 输出的那个文件名字 </p>
+<p>源文件 &#x2F; 目录 &#x3D; 你要塞进去的东西</p>
+<p>选项  -c：create，打包</p>
+<p>-x：extract，解压</p>
+<p>-f：指定包文件名（f 必须放最后！）</p>
+<p>-z：gzip 压缩（后缀 .tar.gz &#x2F; .tgz）</p>
+<p>-j：bzip2 压缩（后缀 .tar.bz2）</p>
+<p>-v：verbose，显示过程（看进度）</p>
+<p>-t：查看包里内容，不解压</p>
+<p>-C：解压到指定目录</p>
+<p>-zcvf  压缩打包看进度指定包文件名  打包 + gzip 压缩，后缀 .tar.gz</p>
+<p>-zxvf  压缩解压看进度指定包文件名  解压 tar.gz</p>
+<p>打包 tar 选项 解压或压缩完的文件名字 原来的文件</p>
+<p>打包完的文件名 一般以.tar 结尾</p>
+<p>解压 以.tar.gz 结尾</p>
+<p>-xvf  解除打包 看进程 指定包文件名  tar -xvf 文件名.tar</p>
+<p>df -h 显示磁盘空间的使用情况</p>
+<p>du -h 目录名  显示目录的使用情况</p>
+<p>top 显示系统资源的实时使用情况和进程信息</p>
+<p>ssh 远程连接</p>
+<p>scp：安全地将文件从本地复制到远程主机，或从远程主机复制到本地</p>
+<p>Find 在什么目录 -name “文件名字”</p>
+<p>find . -name “test.txt”  寻找test.txt文件 根据名字找</p>
+<p>-type f：f &#x3D; file，普通文件（txt、sh、tar、png 这些）</p>
+<p>-type d：d &#x3D; directory，目录 &#x2F; 文件夹</p>
+<p> . 当前目录 </p>
+<p>find . -name “*.txt” 寻找当前目录所有带有.txt 后缀的文件</p>
+<p>-i忽略大小写</p>
+<p>-n显示匹配行的行号</p>
+<p>-r递归搜索目录里所有文件</p>
+<p>-v反向匹配，输出不包含关键词的行</p>
+<p>-E使用扩展正则（支持 <code>、+</code>）-o只输出匹配到的内容，不输出整行</p>
+<p>grep -r “pattern” &#x2F;path&#x2F;to&#x2F;search</p>
+<p>.  直接输入一个. 代表在当前目录查找</p>
+<p>sed ‘s&#x2F;old_text&#x2F;new_text&#x2F;‘ file_name</p>
+<p>sed 流编辑器，用于文本处理和替换</p>
+<p>sed ‘s&#x2F;old_text&#x2F;new_text&#x2F;‘ file_name</p>
+<p>sudo -i 到root了  exit 退出</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://yy-cfvgbhijnmkj.github.io/2026/11/28/linux%E5%91%BD%E4%BB%A4%E6%8C%87%E4%BB%A4%E5%AD%A6%E4%B9%A0/" data-id="cmx0e21np0001uxs67vsn06mp" data-title="linux命令指令学习" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-我的python学习" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2026/11/28/%E6%88%91%E7%9A%84python%E5%AD%A6%E4%B9%A0/" class="article-date">
@@ -506,7 +621,7 @@ def __next__(self):
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://yy-cfvgbhijnmkj.github.io/2026/11/28/%E6%88%91%E7%9A%84python%E5%AD%A6%E4%B9%A0/" data-id="cmx0dsjs70002q3s6doop2rwp" data-title="我的python学习" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://yy-cfvgbhijnmkj.github.io/2026/11/28/%E6%88%91%E7%9A%84python%E5%AD%A6%E4%B9%A0/" data-id="cmx0e21ns0003uxs6hjyzbx6y" data-title="我的python学习" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1148,7 +1263,7 @@ def __next__(self):
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://yy-cfvgbhijnmkj.github.io/2026/11/25/python-study/" data-id="cmx0dsjs50001q3s6dwkj01uq" data-title="python study" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://yy-cfvgbhijnmkj.github.io/2026/11/25/python-study/" data-id="cmx0e21nr0002uxs6gbqeeu7t" data-title="python study" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1199,7 +1314,7 @@ def __next__(self):
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://yy-cfvgbhijnmkj.github.io/2026/11/25/hello-world/" data-id="cmx0dsjrz0000q3s65qdf1juk" data-title="Hello World" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://yy-cfvgbhijnmkj.github.io/2026/11/25/hello-world/" data-id="cmx0e21ni0000uxs64ogdgefa" data-title="Hello World" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -1240,6 +1355,10 @@ def __next__(self):
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2026/11/28/linux%E5%91%BD%E4%BB%A4%E6%8C%87%E4%BB%A4%E5%AD%A6%E4%B9%A0/">linux命令指令学习</a>
+          </li>
         
           <li>
             <a href="/2026/11/28/%E6%88%91%E7%9A%84python%E5%AD%A6%E4%B9%A0/">我的python学习</a>
